@@ -2,6 +2,7 @@
 
 namespace Packages.Estenis.ComponentFilter_
 {
+    [DisallowMultipleComponent]
     public class ComponentFilter : MonoBehaviour
     {
         public enum FilterType

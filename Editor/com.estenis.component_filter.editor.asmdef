@@ -2,10 +2,11 @@
     "name": "_ComponentFilterEditor",
     "rootNamespace": "",
     "references": [
-        "GUID:f1d9f6b7857545d43a711d1effceb363",
         "GUID:5731ffcfbcb89754b83f71b81d57e458"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

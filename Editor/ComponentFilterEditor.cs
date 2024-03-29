@@ -95,7 +95,8 @@ namespace Packages.Estenis.ComponentFilterEditor_
             var components = filter.gameObject.GetComponents<Component>();
             foreach (var co in components)
             {
-                co.hideFlags &= ~HideFlags.HideInInspector;
+                //co.hideFlags &= ~HideFlags.HideInInspector;
+                co.hideFlags = HideFlags.None;
             }
         }
     }
